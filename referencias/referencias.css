@@ -1,0 +1,16 @@
+.info-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 50px;
+    margin-top: 10px;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.911);
+    border-radius: 5px;
+    font-size: 17px;
+
+}
+
+.info-container ul{
+    padding: 10px;
+}

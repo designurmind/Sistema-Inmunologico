@@ -1,0 +1,35 @@
+.info-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 50px;
+    margin-top: 10px;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.911);
+    border-radius: 5px;
+    font-size: 17px;
+
+}
+
+.info-container img{
+    max-width: 740px;
+    max-height: 550px;
+    align-self: center;
+}
+p{
+    padding-bottom: 10px;
+}
+h2{
+    padding-bottom: 10px;
+    align-self: center;
+}
+
+@media (max-width: 1200px) {
+    .info-container img{
+        max-width: 740px;
+        max-height: 550px;
+        align-self: auto;
+    }
+    
+}
+
