@@ -100,7 +100,7 @@ nav ul{
     width: 100%;
     padding: 10px;
 }
-.blog-principal a:hover{
+.blog-principal .entrada:hover{
     opacity: 0.85;
 }
 
@@ -132,12 +132,22 @@ small{
     background-color: rgba(22, 9, 41, 0.856);
     border-radius: 5px;
     width: 100%;
-    padding: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .entrada-once{
     align-self: center;
-    padding-left: 38%;
+    padding-left: 30%;
+    padding-right: 20%;
+
+}
+
+.entrada-once a:hover{
+    opacity: 0.85;
+    
 }
 
 @media (max-width: 900px) {
