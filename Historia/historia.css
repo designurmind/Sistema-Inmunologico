@@ -51,7 +51,7 @@ h2,h3{
 
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1650px) {
     .info-container table .imgs{
         max-width : 300px;
         max-height : 250px;
